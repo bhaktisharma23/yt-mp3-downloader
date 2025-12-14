@@ -1,4 +1,4 @@
-# YouTube to MP3 Downloader 🎧
+# YouTube to MP3 Downloader 
 
 A Flask-based web application that converts YouTube videos into MP3 audio files using yt-dlp.
 
@@ -22,7 +22,7 @@ Due to YouTube rate-limiting on shared cloud IPs, downloads may fail on the live
 The application works correctly in a local environment.
 
 
-## 📸 Screenshots
+## Screenshots
 
 ### Desktop View
 ![Desktop](screenshots/desktop.png)
