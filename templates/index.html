@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>YouTube Audio Downloader</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>YouTube → MP3 Downloader</h1>
+
+        <form method="POST">
+            <textarea
+                name="links"
+                placeholder="Paste YouTube links (one per line)"
+                required
+                aria-label="YouTube video links">
+            </textarea>
+
+            <button type="submit" onclick="this.disabled=true; this.form.submit();">
+                Download Audio
+            </button>
+        </form>
+
+        {% if files %}
+        <h2>Downloaded Files</h2>
+        <ul>
+            {% for file in files %}
+            <li>
+                <span>{{ file }}</span>
+                <a href="/download/{{ file }}">Download</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        <footer class="footer">
+            <p>© 2025 <span>Bhakti Sharma</span>. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
