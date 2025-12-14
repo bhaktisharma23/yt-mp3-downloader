@@ -21,9 +21,19 @@ Deployed on Render (free tier): https://yt-mp3-downloader-2b79.onrender.com/
 Due to YouTube rate-limiting on shared cloud IPs, downloads may fail on the live demo.
 The application works correctly in a local environment.
 
+
+## 📸 Screenshots
+
+### Desktop View
+![Desktop](screenshots/desktop.jpg)
+
+### Mobile View
+![Mobile](screenshots/mobile.png)
+
 ## Run Locally
 ```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 pip install -r requirements.txt
 python app.py
+
