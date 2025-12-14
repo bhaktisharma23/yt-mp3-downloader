@@ -25,10 +25,10 @@ The application works correctly in a local environment.
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop](screenshots/desktop.jpg)
+![Desktop](screenshots/desktop.png)
 
 ### Mobile View
-![Mobile](screenshots/mobile.png)
+![Mobile](screenshots/mobile.jpg)
 
 ## Run Locally
 ```bash
