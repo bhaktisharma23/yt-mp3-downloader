@@ -29,8 +29,6 @@ Deployed on Render (free tier): https://yt-mp3-downloader-2b79.onrender.com/
 Due to YouTube rate-limiting on shared cloud IPs, downloads may fail on the live demo.
 The application works correctly in a local environment.
 
-Use only with content you own or that is licensed for reuse.
-
 ## Screenshots
 
 ### Desktop View
